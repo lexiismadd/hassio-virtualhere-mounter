@@ -26,10 +26,10 @@ USBIP Mounter add-on configuration:
 
 ```yaml
 devices:
-  - server_address: 10.0.0.100 
-    bind: 1-1.4
-  - server_address: 10.0.0.50 
-    bind: 1-1.5
+  - server_address: <Servername> 
+    bus_id: 31
+  - server_address: <Servername>
+    bind: 11
 ```
 
 ### Option list `devices`
