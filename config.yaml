@@ -30,6 +30,6 @@ devices:
 schema:
   devices:
     - server_address: str
-      bus_id: str
+      bus_id: int
 options:
   devices: []
