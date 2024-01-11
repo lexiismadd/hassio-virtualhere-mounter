@@ -6,10 +6,10 @@ FROM ${BUILD_FROM}
 ARG BUILD_ARCH=amd64
 # hadolint ignore=DL3003,DL3042
 RUN apk add --no-cache \
-    kmod=29-r2 \
-    linux-tools-usbip=5.15.35-r1 \
-    hwids-usb=20210613-r0 \
-    device-mapper-libs=2.02.187-r2
+    kmod=30-r3 \
+    linux-tools-usbip=6.3.12-r0 \
+    hwdata-usb=0.370-r0 \
+    device-mapper-libs=2.03.21-r3
 
 # Copy root filesystem
 COPY rootfs /
