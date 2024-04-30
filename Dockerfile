@@ -14,6 +14,10 @@ RUN apk add --no-cache \
 # Copy root filesystem
 COPY rootfs /
 
+# Download the client
+RUN wget https://www.virtualhere.com/sites/default/files/usbclient/vhclientx86_64 -P /usr/sbin
+RUN chmod +x /usr/sbin/vhclientx86_64
+
 # Build arguments
 ARG BUILD_ARCH
 ARG BUILD_DATE
