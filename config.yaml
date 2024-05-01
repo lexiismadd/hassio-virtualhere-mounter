@@ -9,8 +9,8 @@ kernel_modules: true
 host_network: true
 apparmor: false
 version: 1.2.0
-description: VirtualHere Client USB over IP Client Handler to attach USB devices from a VirtualHere server instance to HAOS
-image: lexiismadd/hassio-{arch}-virtualhere-mounter
+description: VirtualHere Client Handler to attach USB devices from a VirtualHere server instance to HAOS
+image: irakhlin/hassio-{arch}-usbip-mounter
 init: false
 full_access: true
 arch:
