@@ -1,7 +1,7 @@
 name: VirtualHere USBIP Mounter
 slug: usbip
 startup: services
-url: https://github.com/Kryzon/hassio-VirtualHere-mounter
+url: https://github.com/lexiismadd/hassio-virtualhere-mounter
 panel_icon: mdi:usb
 usbip: true
 usb: true

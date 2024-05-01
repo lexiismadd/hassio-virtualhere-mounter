@@ -40,6 +40,6 @@ if ! bashio::fs.file_exists "${mount_script}"; then
     server_address=$(bashio::config "devices[${device}].server_address")
     bus_id=$(bashio::config "devices[${device}].bus_id")
     bashio::log.info "Adding device from server ${server_address} on bus ${bus_id}"
-    echo "/usr/sbin/vhclientx86_64 -t ${server_address}.${bus_id}" >> "${mount_script}"
+    echo '/usr/sbin/vhclientx86_64 -t "USE,${server_address}.${bus_id}"' >> "${mount_script}"
   done
 fi

@@ -7,7 +7,7 @@ This add-on allows you to attach usb devices using the linux kernel [usbip kerne
 This add-on uses the host system's kernel usbip module so there are some minimum requierments of the base system that sypervisor is running on. Depending on which configuration you are using verify your system meets all dependencies.
 
 ### Home Assistant OS
-If using [Home Assistant OS][hassos] the minimum requiered version is 9.0. The usbip driver was added in the 9.0 [release][[hassio9].
+If using [Home Assistant OS][hassos] the minimum requiered version is 9.0. The usbip driver was added in the 9.0 [release][hassio9].
 
 ### Debian Supervised
 You must install the usbip [debian package][usbip-debian] with all its dependencies. It may be a good idea to test attaching a usbip device outside of home assistant in general if you are unsure how to verify this is installed.
