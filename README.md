@@ -1,6 +1,6 @@
-# Home Assistant Add-on: VirtualHere USBIP Mounter
+# Home Assistant Add-on: VirtualHere Client Mounter
 
-VirtualHere USBIP client addon to manage mounting usbip devices to home assistant
+VirtualHere Client USB over IP Client Handler to attach USB devices from a VirtualHere server instance to Home Assistant
 
 
 ![Supports amd64 Architecture][amd64-shield]

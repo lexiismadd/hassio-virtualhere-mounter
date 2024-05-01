@@ -1,10 +1,10 @@
 #!/command/with-contenv bashio
 # ==============================================================================
-# Home Assistant Add-on: USBIP Mounter
-# Configures USBIP devices
+# Home Assistant Add-on: VirtualHere Client Mounter
+# Configures VirtualHere Client devices
 # ==============================================================================
 
-# Configure mount script for all usbip devices
+# Configure mount script for all VirtualHere Client devices
 declare server_address
 declare bus_id
 declare script_directory

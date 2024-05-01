@@ -1,5 +1,5 @@
 {
-  "name": "VirtualHere USBIP Mounter",
-  "url": "https://github.com/Kryzon/hassio-VirtualHere-mounter",
-  "maintainer": "Kryzon <seju@unixa.de>"
+  "name": "VirtualHere Client Mounter",
+  "url": "https://github.com/lexiismadd/hassio-VirtualHere-mounter",
+  "maintainer": "Lexi <alexismadd@outlook.com.au>"
 }

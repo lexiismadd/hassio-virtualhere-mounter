@@ -1,20 +1,20 @@
-# Home Assistant Add-on: USBIP Mounter
+# Home Assistant Add-on: VirtualHere Client Mounter
 
 This add-on allows you to attach usb devices using the linux kernel [usbip kernel module][usbip]. Before installation verify that your base supervisor system has the proper configurations and modules to use this add-on.
 
 ## Requirements
 
-This add-on uses the host system's kernel usbip module so there are some minimum requierments of the base system that sypervisor is running on. Depending on which configuration you are using verify your system meets all dependencies.
+This add-on uses the VirtualHere Client module so there are some minimum requierments of the base system that sypervisor is running on. Depending on which configuration you are using verify your system meets all dependencies.
 
 ### Home Assistant OS
 If using [Home Assistant OS][hassos] the minimum requiered version is 9.0. The usbip driver was added in the 9.0 [release][hassio9].
 
 ### Debian Supervised
-You must install the usbip [debian package][usbip-debian] with all its dependencies. It may be a good idea to test attaching a usbip device outside of home assistant in general if you are unsure how to verify this is installed.
+You must install the VirtualHere Client and uspip packages [debian package][usbip-debian] with all its dependencies. It may be a good idea to test attaching a usbip device outside of home assistant in general if you are unsure how to verify this is installed.
  
 ## How to use
 
-This add-on is intended to allow you to mount one or multiple usbip devices to your Home Assistant server. The main use case is to attach "remote" bluetooth adapters that may be attached to other computers on your network. This means that another system that is running the usbip server component is requiered with the attached device. For example you may have existing Raspberry Pis in your house performing other tasks, you could attach one of the supported [bluetooth adapters][ha-bluetooth], install usbip and export the device for sharing. With this add-on running the adapter would show up as an additional bluetooth adapter. This is especially useful for bluetooth integrations that rely on 2way bluetooth communication as the esp32 bluetooth-proxy does not currently support those devices.
+This add-on is intended to allow you to mount one or multiple VirtualHere Client devices to your Home Assistant server. The main use case is to attach "remote" bluetooth adapters that may be attached to other computers on your network. This means that another system that is running the usbip server component is requiered with the attached device. For example you may have existing Raspberry Pis in your house performing other tasks, you could attach one of the supported [bluetooth adapters][ha-bluetooth], install usbip and export the device for sharing. With this add-on running the adapter would show up as an additional bluetooth adapter. This is especially useful for bluetooth integrations that rely on 2way bluetooth communication as the esp32 bluetooth-proxy does not currently support those devices.
 
 Usbip is not limited to bluetooth adapters as most usb devices should be able to function as long as they are natively supported by Home Assistant.
 
